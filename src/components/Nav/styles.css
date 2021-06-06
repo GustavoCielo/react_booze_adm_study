@@ -1,0 +1,17 @@
+a:visited {
+  color: black;
+}
+a {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 4px 8px;
+  background: lightgray;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
