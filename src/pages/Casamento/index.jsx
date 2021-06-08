@@ -9,7 +9,7 @@ export default function Casamento() {
     const newList = list.filter((item) => item.name !== booze.name);
     localStorage.setItem("casamento", JSON.stringify(newList));
     setCasamento(newList);
-  };
+  }; 
 
   return (
     <>

@@ -1,20 +1,21 @@
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
     <nav>
       <ul style={{ display: "flex", justifyContent: "space-around" }}>
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/casamento">Casamento</a>
+          <Link to="/casamento">Casamento</Link>
         </li>
         <li>
-          <a href="/confraternizacao">Confraternização</a>
+          <Link to="/confraternizacao">Confraternização</Link>
         </li>
         <li>
-          <a href="/formatura">Formatura</a>
+          <Link to="/formatura">Formatura</Link>
         </li>
       </ul>
     </nav>
